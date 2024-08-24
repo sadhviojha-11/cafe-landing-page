@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- font itim here from google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <!-- font itim ends here from google fonts  -->
+
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <!-- navigation element here  -->
+    <nav id="Home">
+        <h2>TEN 11 CAFE</h2>
+
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#membership">MemberShip</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </nav>
+    <!-- navigation element end here  -->
+
+
+
+    <!-- introduction of the cafe starts from here  -->
+
+
+    <section class="Intro">
+
+        <div class="imgs">
+            <img src="/imgs/1.jpg" alt="interior img">
+            <img src="/imgs/2.jpg" alt="interior img">
+            <img src="/imgs/3.jpg" alt="interior img">
+            <img src="/imgs/4.jpg" alt="interior img">
+        </div>
+
+        <div class="intro_content">
+            <div class="content_heading">
+                <h2>TEN 11 CAFE</h2>
+            </div>
+            <div class="content_para">
+                <p>Ten 11 Cafe prides itself on using high-quality, locally-sourced ingredients to create simple but
+                    delicious breakfast and lunch fare.</p>
+
+                <br>
+
+                <p>Ten 11 Cafe is the perfect spot to fuel up before tackling your day, catch up with a friend, get some
+                    work done, or just savor a peaceful moment with a great cup of coffee.</p>
+
+                <button>Explore Now</button>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- introduction of the cafe ends here  -->
+
+    <!-- Popular Food Secton Starts from here ... -->
+
+    <section class="food" id="menu">
+        <h2 class="heading1">Popular Food</h2>
+        <br><br><br>
+        <div class="food_cards">
+            <!--     ROW 1      -->
+            <div class="row1">
+                <div class="col1">
+                    <img src="/imgs/row1 col1.jpg" alt="food img">
+                    <div class="content">
+                        <p>Chocolate Milk Shake <br>
+                            40 rs | $3 <br>
+                            Get Your Choco Fix, Sip by Sip.
+                        </p>
+                    </div>
+                </div>
+                <div class="col2">
+                    <img src="/imgs/row 1 col2.jpg" alt="food img">
+                    <div class="content">
+                        <p>Mango Milk Shake <br>
+                            40 rs | $3 <br>
+                            Take a Refreshing Dip in the Mango Shake Pool!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <br><br><br>
+            <!-- ROW 2   -->
+
+            <div class="row2">
+                <div class="col1">
+                    <img src="/imgs/row 2 col 1.jpg" alt="food img">
+                    <div class="content">
+                        <p>Green Tea<br>
+                            40 rs | $3 <br>
+                            Drink Green Tea and Let Relaxation Expand.
+                        </p>
+                    </div>
+                </div>
+                <div class="col2">
+                    <img src="/imgs/row 2 col 2.jpg" alt="food img">
+                    <div class="content">
+                        <p> Black Tea<br>
+                            40 rs | $3 <br>
+                            Your Daily Dose of Comfort.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <br><br><br>
+            <!--        ROW 3       -->
+            <div class="row3">
+                <div class="col1"><img src="/imgs/row 3 col 1.jpg" alt="food img">
+                    <div class="content">
+                        <p>Paneer Pizza<br>
+                            40 rs | $3 <br>
+                            Slice of Cheesy Heaven.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col2">
+                    <img src="/imgs/row 3 col 2.jpg" alt="food img">
+                    <div class="content">
+                        <p>Paneer Burger<br>
+                            40 rs | $3 <br>
+                            When Hunger Hits, Let Paneer Satisfy Your Bits
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+        <!-- on clicking of this btn go to url "https://drive.google.com/file/d/1BUUgPGwW4v7TkrcIFujkiy41AmRP_a2F/view?usp=sharing"  ........... this url contain the link of the drive where the menu is saved ...-->
+        <button onclick="gotomenu(this)" value="https://drive.google.com/file/d/1BUUgPGwW4v7TkrcIFujkiy41AmRP_a2F/view?usp=sharing">MENU</button>
+
+    </section>
+
+
+
+    <!-- popular food secion end here  -->
+
+    <!--  membership section here  -->
+
+
+    <section class="membership" id="membership">
+        <h2 class="heading1">Membership</h2>
+        <br><br><br>
+        <div class="membership_element">
+
+            <div class="container1">
+
+                <div class="membership_content">
+                    <h4>Monthly Access</h4>
+                    <h2>399</h2>
+                    <h3>per month</h3>
+                </div>
+                <div class="membership_benefits">
+                    <ul>
+                        Benefits -
+                        <li>Free Delivery</li>
+                        <li>Priority + </li>
+                        <li>Free Beverages On Weekends</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="container2">
+                <div class="membership_content">
+                    <h4>Annual Access</h4>
+                    <h2>3999</h2>
+                    <h3>per month</h3>
+                </div>
+                <div class="membership_benefits">
+                    <ul>
+                        Benefits -
+                        <li>Free Delivery</li>
+                        <li>Priority + </li>
+                        <li>Free Beverages On Weekends</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- membership section end here  -->
+
+
+
+
+
+
+    <!-- contact us page section here  -->
+
+
+
+    <section class="contact" id="contact">
+
+
+        <div class="contact_start">
+            <div class="contact_blue_layer">
+                <div class="contact_start_text">
+
+                    <h2>How Can We Help ?</h2>
+                    <h4>Send us a message !</h4>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="contact_end">
+            <div class="contact_form">
+
+                <!-- <label class="form_row1">First Name</label> -->
+                <input type="text" placeholder="First Name" id="first_name">
+
+                <!-- <label class="form_row1">Last Name</label> -->
+                <input type="text" placeholder="Last Name" id="last_name">
+                <br>
+                <!-- <label>E-Mail</label> -->
+                <input type="text" placeholder="E-Mail" id="email">
+
+                <!-- <label>Message</label> -->
+                <input type="text" placeholder="Message" id="message">
+
+                <button id="submit_form" onclick="submit_form()">Submit</button>
+
+
+            </div>
+            <div class="contact_img">
+                <img src="/imgs/contact 2.jpg" alt="contact img">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- contact us  section ends here -->
+
+    <!-- footer sections here  -->
+
+
+    <section class="footer">
+
+        <div class="footer1_element">
+            <h2>Contact Info</h2>
+            <p>E-Mail</p>
+            <p>Phone No.</p>
+            <p>Address</p>
+
+        </div>
+
+
+        <div class="footer2_element">
+            <h2>Quick Links</h2>
+            <P><a href="#Home">Home</a></P>
+            <P><a href="https://drive.google.com/file/d/1BUUgPGwW4v7TkrcIFujkiy41AmRP_a2F/view?usp=sharing">Menu</a></P>
+            <P><a href="#membership">MemberShip</a></P>
+            <P><a href="#contact">Contact Us</a></P>
+            <P><a href="#">Login</a></P>
+        </div>
+
+
+        <div class="footer3_element">
+            <h2>Social Media</h2>
+            <p><a href="#">YouTube</a></p>
+            <p><a href="#">FaceBook</a></p>
+            <p><a href="#">Twitter</a></p>
+            <p><a href="#">Instagram</a></p>
+            <p><a href="#">Google</a></p>
+        </div>
+
+
+    </section>
+
+
+
+    <!--  copy right -->
+
+    <section class="copyright">
+        <p>&copy; Copyright 2024 Ten 11 Cafe. All Rights Reserved.</p>
+    </section>
+
+
+    <!-- footer sections end here  -->
+
+</body>
+<script>
+    function gotomenu(link){
+        window.open(link.value);
+    }
+
+    function submit_form(){
+        confirm("Form Submitted.")
+    }
+</script>
+</html>
